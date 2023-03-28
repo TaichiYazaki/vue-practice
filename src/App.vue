@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <IfUsage />
+    <ListUsage />
   </div>
 </template>
 
 <script>
 import IfUsage from './components/IfUsage.vue'
+import ListUsage from './components/ListUsage.vue'
 export default {
   name: 'App',
   components: {
     IfUsage
+    , ListUsage
   }
 }
 </script>
