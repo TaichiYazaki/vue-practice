@@ -2,17 +2,20 @@
   <div id="app">
     <IfUsage />
     <ListUsage />
+    <ComputedProperty />
   </div>
 </template>
 
 <script>
 import IfUsage from './components/IfUsage.vue'
 import ListUsage from './components/ListUsage.vue'
+import ComputedProperty from './components/ComputedProperty.vue'
 export default {
   name: 'App',
   components: {
     IfUsage
     , ListUsage
+    , ComputedProperty
   }
 }
 </script>
