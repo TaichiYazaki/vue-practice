@@ -5,23 +5,26 @@
     <ComputedProperty />
     <ComputedProperty2 />
     <LifeCycle />
+    <WatchVue />
   </div>
 </template>
 
 <script>
-import IfUsage from './components/IfUsage.vue'
-import ListUsage from './components/ListUsage.vue'
-import ComputedProperty from './components/ComputedProperty.vue'
-import LifeCycle from './components/LifeCycle.vue'
+import IfUsage from "./components/IfUsage.vue";
+import ListUsage from "./components/ListUsage.vue";
+import ComputedProperty from "./components/ComputedProperty.vue";
+import LifeCycle from "./components/LifeCycle.vue";
+import WatchVue from "./components/WatchVue.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    IfUsage
-    , ListUsage
-    , ComputedProperty
-    , LifeCycle
-  }
-}
+    IfUsage,
+    ListUsage,
+    ComputedProperty,
+    LifeCycle,
+    WatchVue,
+  },
+};
 </script>
 
 <style>
